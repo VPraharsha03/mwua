@@ -11,7 +11,8 @@ echo  --------------------------------------------------------------------------
 
 reg add HKEY_CURRENT_USER\Software\Policies\Microsoft\Windows\CredUI /v DisablePasswordReveal /t REG_DWORD /d 1
 reg add "HKEY_CURRENT_USER\Software\Microsoft\Windows\Windows Error Reporting" /v Disabled /t REG_DWORD /d 1
-reg add HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\DWM
+reg add HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\DWM /v AccentColor /t REG_DWORD /d 0d0d0d
+reg add HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\DWM /v AccentColorInactive /t REG_DWORD /d 282828
 
 choco install chocolateygui
 
