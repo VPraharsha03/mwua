@@ -21,6 +21,7 @@ winget install --id=ShareX.ShareX -e
 winget install --id=voidtools.Everything -e 
 winget install --id=stnkl.EverythingToolbar -e
 winget install Microsoft.PowerToys -s winget
+winget install --id=Flow-Launcher.Flow-Launcher  -e
 winget install --id=AntibodySoftware.WizTree -e 
 winget install --id=YairAichenbaum.Files -e
 winget install --id=BurntSushi.ripgrep.MSVC -e
