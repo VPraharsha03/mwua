@@ -16,6 +16,10 @@ reg add HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\DWM /v AccentColorInactive 
 
 choco install chocolateygui
 
+rem Install Nerd Fonts
+scoop bucket add nerd-fonts
+scoop install nerd-fonts/Delugia-Mono-Nerd-Font nerd-fonts/Delugia-Nerd-Font nerd-fonts/Delugia-Nerd-Font-Book nerd-fonts/Delugia-Nerd-Font-Complete nerd-fonts/Delugia-Mono-Nerd-Font-Complete nerd-fonts/CascadiaCode-NF-Mono nerd-fonts/CascadiaCode-NF
+
 rem Utilities & Enhancements
 winget install --id=ShareX.ShareX -e  
 winget install --id=voidtools.Everything -e 
